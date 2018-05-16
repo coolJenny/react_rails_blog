@@ -30,6 +30,17 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+# for a react environment
+gem "react-rails"
+gem 'webpacker', git: 'https://github.com/rails/webpacker.git'
+
+# for a testing
+gem 'rspec-rails', '~> 3.5'
+gem 'factory_girl_rails'
+gem 'shoulda-matchers', git: 'https://github.com/thoughtbot/shoulda-matchers.git', branch: 'rails-5'
+gem "capybara-webkit"
+gem 'database_cleaner'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
