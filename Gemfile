@@ -38,7 +38,7 @@ gem 'webpacker', git: 'https://github.com/rails/webpacker.git'
 gem 'rspec-rails', '~> 3.5'
 gem 'factory_girl_rails'
 gem 'shoulda-matchers', git: 'https://github.com/thoughtbot/shoulda-matchers.git', branch: 'rails-5'
-gem "capybara-webkit"
+# gem "capybara-webkit"
 gem 'database_cleaner'
 
 # Use Capistrano for deployment
